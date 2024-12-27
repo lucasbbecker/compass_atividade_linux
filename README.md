@@ -1,4 +1,8 @@
 # Documentação do Processo de Criação e Configuração de Servidor Nginx na AWS
+## Sobre o projeto
+
+Este projeto envolve a criação e configuração de um servidor Nginx na AWS, utilizando recursos como VPC, instância EC2 e IP Elástico. O objetivo é configurar um servidor de monitoramento simples, onde o status do Nginx (online ou offline) é registrado em arquivos de log, e essas informações são exibidas em uma página web acessível publicamente.
+
 
 ## Índice
 
