@@ -1,7 +1,7 @@
 #!/bin/bash
 
-ONLINE_LOG="/var/log/nginx-monitor/nginx_online.log"
-OFFLINE_LOG="/var/log/nginx-monitor/nginx_offline.log"
+ONLINE_LOG="/var/log/nginx_status/nginx_online.log"
+OFFLINE_LOG="/var/log/nginx_status/nginx_offline.log"
 
 STATUS=$(systemctl is-active nginx)
 
